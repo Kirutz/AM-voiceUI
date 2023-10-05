@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  version="1.0"
+  id="Layer_1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 64 64"
+  enable-background="new 0 0 64 64"
+  xml:space="preserve"
+  fill="#ffffff"
+>
+  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+  <g id="SVGRepo_iconCarrier">
+    <!-- Microphone Icon -->
+
+
+    <!-- Barras de señal -->
+    <rect x="25" y="10" width="2" height="10" fill="#ffffff">
+      <animate
+        attributeName="height"
+        attributeType="XML"
+        values="10;15;10"
+        dur="1s"
+        repeatCount="indefinite"
+      />
+    </rect>
+    <rect x="30" y="10" width="2" height="15" fill="#ffffff">
+      <animate
+        attributeName="height"
+        attributeType="XML"
+        values="15;10;15"
+        dur="1s"
+        repeatCount="indefinite"
+      />
+    </rect>
+    <rect x="35" y="10" width="2" height="10" fill="#ffffff">
+      <animate
+        attributeName="height"
+        attributeType="XML"
+        values="10;15;10"
+        dur="1s"
+        repeatCount="indefinite"
+      />
+    </rect>
+    <rect x="40" y="10" width="2" height="15" fill="#ffffff">
+      <animate
+        attributeName="height"
+        attributeType="XML"
+        values="15;10;15"
+        dur="1s"
+        repeatCount="indefinite"
+      />
+    </rect>
+    <rect x="45" y="10" width="2" height="10" fill="#ffffff">
+      <animate
+        attributeName="height"
+        attributeType="XML"
+        values="10;15;10"
+        dur="1s"
+        repeatCount="indefinite"
+      />
+    </rect>
+    <rect x="50" y="10" width="2" height="15" fill="#ffffff">
+      <animate
+        attributeName="height"
+        attributeType="XML"
+        values="15;10;15"
+        dur="1s"
+        repeatCount="indefinite"
+      />
+    </rect>
+    <rect x="55" y="10" width="2" height="10" fill="#ffffff">
+      <animate
+        attributeName="height"
+        attributeType="XML"
+        values="10;15;10"
+        dur="1s"
+        repeatCount="indefinite"
+      />
+    </rect>
+  </g>
+</svg>

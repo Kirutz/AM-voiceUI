@@ -1,0 +1,187 @@
+@font-face {
+    font-family: BoxedRound;
+    src: url('./BoxedRound.ttf');
+}
+
+@font-face {
+    font-family: bankgothic;
+    src: url('./bankgothic.ttf');
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+	
+}
+
+
+.cuadro {
+    position: absolute;
+    top: 94.5vh;
+    left: -5.5vh;
+    width: 12vh;
+    height: 4vh;
+		z-index:1;
+    border-radius: 0px 10px 0px 10px;
+	background-image: linear-gradient(160deg, #e0c3fcb5 0%, #80D0C7b5 100%);
+    box-shadow: rgb(0 0 0 / 60%) 0px 0px 8px 3px;
+	animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.cuadro2 {
+    position: absolute;
+    top: 0.25vh;
+    left: 0.25vh;
+    width: 11.5vh;
+    height: 3.5vh;
+	z-index:2;
+    border-radius: 0px 10px 0px 10px;
+	
+    background-color: #000000b8;
+
+
+}
+
+.titulo-voz {
+    position: absolute;
+    top: 0.5vh;
+    left: 2.8vh;
+    width: 10vh;
+    height: 3vh;
+	z-index:2;
+	text-shadow: 0 0 20px rgba(0, 0, 0, 1),  0 0 20px rgba(0, 0, 0, 0);
+    font-family: BoxedRound;
+
+	text-align: center;
+	font-size: 13px;
+	color:white;
+}
+
+.titulo-voz2 {
+    position: absolute;
+    top: 2.0vh;
+    left: 2.8vh;
+    width: 10vh;
+    height: 3vh;
+	z-index:2;
+	text-shadow: 0 0 20px rgba(0, 0, 0, 1),  0 0 20px rgba(0, 0, 0, 0);
+    font-family: bankgothic;
+    letter-spacing: 3px;
+	text-align: center;
+	font-size: 11px;
+	color:#A9A9A9;
+}
+
+.icon-font1 {
+    position: absolute;
+	width: 8vh;
+    height: 4vh;
+    right: 1.85vh;
+    color:#ffffff;
+    bottom: -1.2vh;
+	font-size: 12px;
+	z-index:4;
+}
+.icono {
+    position: absolute;
+    top: 0.5vh;
+    left: -0.1vh;
+    z-index: 3;
+    width: 46px;
+	
+}
+
+@media (max-width: 1360px) and (max-height: 768px) {
+.cuadro {
+  position: absolute;
+  top: 95.4vh;
+  right: 170.7vh;
+    width: 28px;
+    height: 28px;
+    border-radius: 3px;
+    background-color: #000000b5;
+    box-shadow: rgb(0 0 0 / 60%) 0px 0px 8px 3px;
+}
+
+.icono {
+    position: absolute;
+    top: 0.8vh;
+    left: 0.8vh;
+    z-index: 1;
+    width: 16px;
+}
+
+
+}
+
+
+@media (max-width: 1366px) and (max-height: 768px) {
+.cuadro {
+  position: absolute;
+  top: 95.4vh;
+  right: 170.7vh;
+    width: 28px;
+    height: 28px;
+    border-radius: 3px;
+    background-color: #000000b5;
+    box-shadow: rgb(0 0 0 / 60%) 0px 0px 8px 3px;
+}
+
+.icono {
+    position: absolute;
+    top: 0.8vh;
+    left: 0.8vh;
+    z-index: 1;
+    width: 16px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.slide-left {
+	animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.slide-right {
+  animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.slide-right2 {
+  animation: slide-right2 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+/* Definición de la animación */
+@keyframes slide-right {
+  0% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(-50px); /* Cambia el valor según sea necesario */
+  }
+}
+
+@keyframes slide-left {
+  0% {
+            transform: translateX(-50px);
+  }
+  100% {
+
+            transform: translateX(100px);
+  }
+}
